@@ -39,14 +39,6 @@ cd doxygen-awesome-css
 git checkout v2.0.3
 ```
 
-Choose one of the theme variants and configure Doxygen accordingly:
-
-<span id="variants_image">
-
-![Available theme variants](img/theme-variants.drawio.svg)
-
-</span>
-
 ```
 # Doxyfile
 GENERATE_TREEVIEW      = YES # optional. Also works without treeview
