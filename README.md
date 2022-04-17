@@ -1,4 +1,4 @@
-#  Doxygen Awesome
+#  Doxygen Awesome for Doxygen 1.8.17
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css)](https://github.com/jothepro/doxygen-awesome-css/releases/latest)
 [![GitHub](https://img.shields.io/github/license/jothepro/doxygen-awesome-css)](https://github.com/jothepro/doxygen-awesome-css/blob/main/LICENSE)
@@ -18,7 +18,7 @@ I really like how the Doxygen HTML-documentation is structured! But IMHO it look
 
 This theme is an attemt to update the visuals of Doxygen without changing it's overall layout too much.
 
-Fixed for doxygen 1.8.17
+**Fixed for Doxygen 1.8.17**
 
 ## Features
 
@@ -27,7 +27,7 @@ Fixed for doxygen 1.8.17
 - 🧩 No changes to the HTML structure of Doxygen required
 - 📱 Improved mobile usability
 - 🌘 Dark mode!
-- 🥇 Works with **doxygen 1.8.17**
+- 🥇 **Works with Doxygen 1.8.17, have not tested with other versions.**
 
 ## Installation
 
