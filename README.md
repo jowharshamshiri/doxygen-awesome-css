@@ -18,26 +18,23 @@ I really like how the Doxygen HTML-documentation is structured! But IMHO it look
 
 This theme is an attemt to update the visuals of Doxygen without changing it's overall layout too much.
 
+Fixed for doxygen 1.8.17
+
 ## Features
 
 - 🌈 Clean, modern design
 - 🚀 Heavily customizable by adjusting CSS-variables
 - 🧩 No changes to the HTML structure of Doxygen required
 - 📱 Improved mobile usability
-- 🌘 Dark mode support!
-- 🥇 Works best with **doxygen 1.9.1** - **1.9.3**
+- 🌘 Dark mode!
+- 🥇 Works with **doxygen 1.8.17**
 
-## Examples
-
-- Sidebar-Only theme: [Documentation of this repository](https://jothepro.github.io/doxygen-awesome-css/)
-- Base theme: [libsl3](https://a4z.github.io/libsl3/)
- 
 ## Installation
 
 Copy the file `doxygen-awesome.css` from this repository into your project or add this repository as submodule and check out the latest release:
 
 ```bash
-git submodule add https://github.com/jothepro/doxygen-awesome-css.git
+git submodule add https://github.com/jowharshamshiri/doxygen-awesome-css.git
 cd doxygen-awesome-css
 git checkout v2.0.3
 ```
@@ -50,19 +47,10 @@ Choose one of the theme variants and configure Doxygen accordingly:
 
 </span>
 
-1. **Base theme**:
 ```
 # Doxyfile
 GENERATE_TREEVIEW      = YES # optional. Also works without treeview
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
-```
-
-2. **Sidebar-only theme**:
-```
-# Doxyfile
-GENERATE_TREEVIEW      = YES # required!
-HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
-                         doxygen-awesome-css/doxygen-awesome-sidebar-only.css
 ```
 
 Further installation instructions:
